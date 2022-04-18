@@ -1,0 +1,12 @@
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\bin\Debug\net6.0\HelperLibrary.deps.json
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\bin\Debug\net6.0\HelperLibrary.dll
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\bin\Debug\net6.0\HelperLibrary.pdb
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\HelperLibrary.csproj.AssemblyReference.cache
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\HelperLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\HelperLibrary.AssemblyInfoInputs.cache
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\HelperLibrary.AssemblyInfo.cs
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\HelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\HelperLibrary.dll
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\refint\HelperLibrary.dll
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\HelperLibrary.pdb
+C:\Users\Eigenaar\source\repos\Birthday\HelperLibrary\obj\Debug\net6.0\ref\HelperLibrary.dll

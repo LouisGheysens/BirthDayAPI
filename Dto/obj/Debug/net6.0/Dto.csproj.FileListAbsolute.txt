@@ -1,0 +1,17 @@
+C:\Users\Eigenaar\source\repos\Birthday\Dto\bin\Debug\net6.0\Dto.deps.json
+C:\Users\Eigenaar\source\repos\Birthday\Dto\bin\Debug\net6.0\Dto.runtimeconfig.json
+C:\Users\Eigenaar\source\repos\Birthday\Dto\bin\Debug\net6.0\Dto.dll
+C:\Users\Eigenaar\source\repos\Birthday\Dto\bin\Debug\net6.0\Dto.pdb
+C:\Users\Eigenaar\source\repos\Birthday\Dto\bin\Debug\net6.0\Data.dll
+C:\Users\Eigenaar\source\repos\Birthday\Dto\bin\Debug\net6.0\Data.pdb
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.csproj.AssemblyReference.cache
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.AssemblyInfoInputs.cache
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.AssemblyInfo.cs
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.csproj.CopyComplete
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.dll
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\refint\Dto.dll
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.pdb
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\Dto.genruntimeconfig.cache
+C:\Users\Eigenaar\source\repos\Birthday\Dto\obj\Debug\net6.0\ref\Dto.dll
