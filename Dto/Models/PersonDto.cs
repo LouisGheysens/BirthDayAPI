@@ -13,8 +13,14 @@ namespace Dto.Models
         public string LastName { get; set; } 
         public DateTime CreationDate { get; set; }
         public DateTime? ModificationDate { get; set; }
-        public string? City { get; set; }
         public bool Present { get; set; }
+        public string? LogoFileName { get; set; }
+        public string? City { get; set; }
+        public string? Street { get; set; }
+        public string? PostalCode { get; set; }
+
+        public string? Number { get; set; }
+
     }
 
     public interface IDto

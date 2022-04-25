@@ -4,6 +4,7 @@ using Business.Interfaces;
 using Business.Services;
 using Dto.Models;
 using Gridify;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -58,6 +59,29 @@ namespace Birthday.Controllers
         {
             var response = await _personService.DeletePerson(id, Token);
             return !response.Success ? (IActionResult)BadRequest(response) : Ok(response);
+        }
+
+        [AllowAnonymous]
+        [HttpPut("Upload/" + ApiRoutes.SaveLogo), DisableRequestSizeLimit]
+        public async Task<IActionResult> UploadLogo([FromRoute] int id, [FromForm] FileModel request)
+        {
+            try
+            {
+                var reqFile = Request.Form.Files[0];
+                if (request.File is null) return BadRequest();
+                var file = request.File.FileName;
+                await _personService.UploadImage(id, file, Token);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex}");
+            }
+        }
+
+        public class FileModel
+        {
+            public IFormFile File { get; set; }
         }
     }
 }

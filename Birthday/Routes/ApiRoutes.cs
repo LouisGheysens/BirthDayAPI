@@ -7,5 +7,6 @@
         public const string Save = "Save";
         public const string Update = "{id}";
         public const string Delete = "{id}";
+        public const string SaveLogo = "SaveLogo";
     }
 }

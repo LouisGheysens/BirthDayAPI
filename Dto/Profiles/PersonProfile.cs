@@ -13,7 +13,12 @@ namespace Dto.Profiles
     {
         public override void CreateMapping()
         {
-            CreateMap<Person, PersonDto>().ReverseMap();
+            CreateMap<Person, PersonDto>()
+                .ForMember(x => x.City, option => option.MapFrom(c => c.Address.City))
+                .ForMember(x => x.Street, option => option.MapFrom(c => c.Address.Street))
+                .ForMember(x => x.PostalCode, option => option.MapFrom(c => c.Address.PostalCode))
+                .ForMember(x => x.Number, option => option.MapFrom(c => c.Address.Number))
+                .ReverseMap();
 
             base.CreateMapping();
 

@@ -12,7 +12,9 @@ namespace Data.Models
         public DateTime CreationDate { get; set; }
         public DateTime? ModificationDate { get; set; }
         public bool Deleted { get; set; }
-        public string? City { get; set; }
         public bool Present { get; set; }
+        public string? LogoFileName { get; set; }
+        public int AdresId { get; set; }
+        public virtual Address? Address { get; set; }
     }
 }

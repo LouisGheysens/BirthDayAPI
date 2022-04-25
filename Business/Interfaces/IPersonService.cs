@@ -16,5 +16,6 @@ namespace Business.Interfaces
         Task<ServiceResponse<int>> UpdatePerson(int id, PersonDto dto, CancellationToken token);
         Task<ServiceResponse<int>> AddPerson(PersonDto dto, CancellationToken token);
         Task<ServiceResponse<object>> DeletePerson(int id, CancellationToken token);
+        Task<ServiceResponse<bool>> UploadImage(int id, string file, CancellationToken token);
     }
 }

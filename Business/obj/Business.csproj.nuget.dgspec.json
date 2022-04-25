@@ -61,6 +61,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.11.0, )"
+            },
             "Gridify": {
               "target": "Package",
               "version": "[2.7.3, )"

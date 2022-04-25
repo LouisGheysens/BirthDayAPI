@@ -1,12 +1,16 @@
 using Birthday.Installers;
 using Business.Interfaces;
 using Business.Services;
+using Data.Models;
 using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+var connectionstring = builder.Configuration.GetConnectionString("BirthDatabaseContext");
+builder.Services.AddDbContext<BirthDayDatabaseContext>(x => x.UseSqlServer(connectionstring));
 builder.Services.AddControllers().AddNewtonsoftJson();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
